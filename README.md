@@ -40,6 +40,7 @@ export build = function* () {
 
 MIT © [Ben Briggs][author]
 
+[mit]:          http://opensource.org/licenses/MIT
 [author]:       http://beneb.info
 [contributors]: https://github.com/ben-eb/fly-cssnano/graphs/contributors
 [releases]:     https://github.com/ben-eb/fly-cssnano/releases
