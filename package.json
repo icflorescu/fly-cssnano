@@ -1,0 +1,40 @@
+{
+  "name": "fly-cssnano",
+  "version": "0.0.0",
+  "description": "Minify CSS with cssnano.",
+  "license": "MIT",
+  "repository": "https://github.com/ben-eb/fly-cssnano",
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "fly",
+    "fly-plugin",
+    "cssnano",
+    "compress",
+    "minify",
+    "css",
+    "optimise"
+  ],
+  "scripts": {
+    "test": "node --harmony --harmony_arrow_functions ./node_modules/tape/bin/tape test/*.js"
+  },
+  "author": {
+    "name": "Ben Briggs",
+    "email": "beneb.info@gmail.com",
+    "url": "http://beneb.info"
+  },
+  "dependencies": {
+    "cssnano": "^2.3.0"
+  },
+  "devDependencies": {
+    "fly-util": "^4.0.1",
+    "tap-spec": "^4.0.2",
+    "tape": "^4.2.0"
+  },
+  "engines": {
+    "iojs": ">= 1.0.0",
+    "node": ">= 0.11.0"
+  }
+}
