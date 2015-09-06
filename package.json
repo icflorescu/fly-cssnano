@@ -18,7 +18,7 @@
     "optimise"
   ],
   "scripts": {
-    "test": "node --harmony --harmony_arrow_functions ./node_modules/tape/bin/tape test/*.js"
+    "test": "node --harmony --harmony_arrow_functions ./node_modules/tape/bin/tape test/*.js | tap-spec"
   },
   "author": {
     "name": "Ben Briggs",
@@ -26,11 +26,12 @@
     "url": "http://beneb.info"
   },
   "dependencies": {
-    "cssnano": "^2.3.0"
+    "cssnano": "^3.0.0",
+    "object-assign": "^4.0.1"
   },
   "devDependencies": {
-    "fly-util": "^4.0.1",
-    "tap-spec": "^4.0.2",
+    "fly-util": "^4.3.0",
+    "tap-spec": "^4.1.0",
     "tape": "^4.2.0"
   },
   "engines": {
